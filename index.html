@@ -31,11 +31,11 @@
         }
 
         .team-member {
-            background: white;
             border-radius: 10px;
             overflow: hidden;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
             transition: transform 0.3s ease;
+            color: white;
         }
 
         .team-member:hover {
@@ -56,13 +56,28 @@
         .member-name {
             font-size: 1.5em;
             margin: 0;
-            color: #333;
         }
 
         .member-role {
-            color: #666;
             margin-top: 5px;
             font-style: italic;
+        }
+
+        /* ho modificato i colori delle caselle*/
+        .ceo {
+            background-color: #87CEEB; /* azzuro */
+        }
+
+        .cto {
+            background-color: #B0B0B0; /* grigio */
+        }
+
+        .developer {
+            background-color: #FF6347; /* rosso */
+        }
+
+        .ux-designer {
+            background-color: #32CD32; /* vrede */
         }
     </style>
 </head>
@@ -73,7 +88,7 @@
     </div>
 
     <div class="team-container">
-        <div class="team-member">
+        <div class="team-member ceo">
             <img src="img/placeholder-400-300.png" alt="Sebastiano De Luca" class="member-image">
             <div class="member-info">
                 <h2 class="member-name">Sebastiano De Luca</h2>
@@ -81,7 +96,7 @@
             </div>
         </div>
 
-        <div class="team-member">
+        <div class="team-member cto">
             <img src="img/placeholder-400-300.png" alt="Jacopo Gargallo" class="member-image">
             <div class="member-info">
                 <h2 class="member-name">Jacopo Gargallo</h2>
@@ -89,15 +104,15 @@
             </div>
         </div>
 
-        <div class="team-member">
+        <div class="team-member developer">
             <img src="img/placeholder-400-300.png" alt="Daniele Matteucci" class="member-image">
             <div class="member-info">
-                <h2 class="member-name">DanieleMatteucci</h2>
+                <h2 class="member-name">Daniele Matteucci</h2>
                 <p class="member-role">Developer</p>
             </div>
         </div>
 
-        <div class="team-member">
+        <div class="team-member ux-designer">
             <img src="img/placeholder-400-300.png" alt="Nicolò Boccuccia" class="member-image">
             <div class="member-info">
                 <h2 class="member-name">Nicolò Boccuccia</h2>
@@ -107,3 +122,4 @@
     </div>
 </body>
 </html>
+
